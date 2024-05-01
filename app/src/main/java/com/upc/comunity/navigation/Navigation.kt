@@ -18,7 +18,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.upc.comunity.ui.screens.Article
 import com.upc.comunity.ui.screens.Community
+import com.upc.comunity.ui.screens.Courses
 import com.upc.comunity.ui.screens.Home
 import com.upc.comunity.ui.screens.Pay
 
@@ -79,6 +81,12 @@ fun Navigation(){
             }
             composable(route = Screens.Community.name){
                 Community()
+            }
+            composable(route = Screens.Courses.name){
+                Courses()
+            }
+            composable(route = Screens.Article.name){
+                Article()
             }
         }
 

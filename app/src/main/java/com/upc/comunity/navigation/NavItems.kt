@@ -1,6 +1,8 @@
 package com.upc.comunity.navigation
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountBox
+import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.ShoppingCart
@@ -23,10 +25,20 @@ val listOfNavItem= listOf(
         route= Screens.Community.name
     ),
     NavItem(
-        label = "Home",
+        label = "Pay",
         icon= Icons.Default.ShoppingCart,
         route= Screens.Pay.name
     ),
+    NavItem(
+        label = "Article",
+        icon = Icons.Default.DateRange,
+        route = Screens.Article.name
+    ),
+    NavItem(
+        label = "Courses",
+        icon = Icons.Default.AccountBox,
+        route = Screens.Courses.name
+    )
 
 )
 
