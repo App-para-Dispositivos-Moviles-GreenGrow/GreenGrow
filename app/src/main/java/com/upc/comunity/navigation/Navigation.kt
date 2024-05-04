@@ -24,6 +24,7 @@ import com.upc.comunity.ui.screens.Courses
 import com.upc.comunity.ui.screens.Home
 import com.upc.comunity.ui.screens.Pay
 
+
 @Composable
 fun Navigation(){
     val navController = rememberNavController()
