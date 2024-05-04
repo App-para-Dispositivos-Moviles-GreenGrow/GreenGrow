@@ -6,4 +6,5 @@ enum class Screens {
     Pay,
     Article,
     Courses
+    
 }
