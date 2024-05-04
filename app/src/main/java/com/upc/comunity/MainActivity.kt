@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComunityTheme {
-                // A surface container using the 'background' color from the theme
+                // A surface container using the 'background' color from the   theme
                 Navigation()
 
             }
