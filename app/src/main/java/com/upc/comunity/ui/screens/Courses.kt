@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import com.skydoves.landscapist.glide.GlideImage
 import com.upc.comunity.model.data.Course
 
+
 @Composable
 fun Courses(){
     val courses = listOf(
